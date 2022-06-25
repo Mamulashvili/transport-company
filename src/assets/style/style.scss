@@ -27,6 +27,16 @@ header {
   }
 }
 
+.header-cards-wrapper {
+  background-color: #fff;
+  margin-top: -70px;
+
+  .card-icon {
+    max-width: 40px;
+  }
+}
+
+
 @media (max-width: 700px) {
   header {
     &>div {
