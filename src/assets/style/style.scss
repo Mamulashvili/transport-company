@@ -1,1 +1,43 @@
 @import './reset.scss';
+
+$bg-dark: #020B21;
+
+.brd {
+  border: 1px solid;
+}
+
+.bg-dark {
+  background-color: $bg-dark;
+}
+
+
+header {
+  height: 80vh;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  color: #fff;
+
+  &>div {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    &>div {
+      top: 20%;
+      left: 10%;
+      right: 10%;
+
+      a {
+        width: 100%;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
