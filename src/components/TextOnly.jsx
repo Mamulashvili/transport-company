@@ -1,8 +1,6 @@
-import { Container } from 'react-bootstrap';
-
 export const TextOnly = () => {
   return (
-    <Container className='my-5'>
+    <div className='my-5'>
       <h1>
         რატომ უნდა აირჩიოთ ჩვენი კომპანია?
       </h1>
@@ -12,6 +10,6 @@ export const TextOnly = () => {
       <small className='mt-3 fw-bold'>
         თქვენი ავტომობილის უსაფრთხოდ და დროულად დანიშნულების ადგილზე ტრანსპორტირება, ჩვენი მთავარი პრიორიტეტია.
       </small>
-    </Container>
+    </div>
   );
 };

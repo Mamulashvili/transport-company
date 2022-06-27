@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { TransportCard } from './TransportCard';
 import bmw_merc from '../assets/images/bmwmerc.jpeg';
 import skoda_reno from '../assets/images/skodareno.jpeg';
@@ -15,7 +15,7 @@ export const TransportCards = () => {
   };
 
   return (
-    <Container className="mt-5 pt-5">
+    <div className="mt-5 pt-5">
       <h3>ავტომობილები გერმანიიდან</h3>
       <p className="mb-4 text-primary">ჩამოიყვანეთ ნებისმიერი ბრენდის ავტომობილი</p>
       <Row>
@@ -44,6 +44,6 @@ export const TransportCards = () => {
           })
         }
       </Row>
-    </Container>
+    </div>
   );
 };

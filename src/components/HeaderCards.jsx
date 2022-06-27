@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { HeaderCard } from './HeaderCard';
 import data from '../data/cardsData.json';
 import search from '../assets/images/search.png';
@@ -10,35 +10,33 @@ export const HeaderCards = () => {
   const images = { search, star, docs, lorry };
 
   return (
-    <>
-      <Container className='header-cards-wrapper'>
-        <Row>
-          {
-            Object.values(data).map((item, index) => {
-              return (
+    <div className='header-cards-wrapper'>
+      <Row>
+        {
+          Object.values(data).map((item, index) => {
+            return (
+              <Col
+                key={index}
+                md="3"
+                sm="6"
+                xs="12"
+                className='mb-3'
+              >
                 <Col
-                  key={index}
-                  md="3"
-                  sm="6"
-                  xs="12"
-                  className='mb-3'
+                  md="12"
+                  className="h-100 card-holder"
                 >
-                  <Col
-                    md="12"
-                    className="h-100 card-holder"
-                  >
-                    <HeaderCard
-                      title={item.title}
-                      body={item.body}
-                      image={images[ item.image ]}
-                    />
-                  </Col>
+                  <HeaderCard
+                    title={item.title}
+                    body={item.body}
+                    image={images[ item.image ]}
+                  />
                 </Col>
-              );
-            })
-          }
-        </Row>
-      </Container>
-    </>
+              </Col>
+            );
+          })
+        }
+      </Row>
+    </div>
   );
 };

@@ -1,10 +1,9 @@
-import { Container } from 'react-bootstrap';
 import carShapes from '../assets/images/cars.png';
 import bikeShapes from '../assets/images/bikes.jpeg';
 
 export const TransportShapes = () => {
   return (
-    <Container className="mt-5 pt-5">
+    <div className="mt-5 pt-5">
       <h3>ჩვენ გთავაზობთ სატრანსპორტო სერვისებს</h3>
       <p className="text-primary">ჩვენი სერვისი მოიცავს ყველანაირი ტიპის ავტომობილის გადაზიდვას</p>
 
@@ -20,6 +19,6 @@ export const TransportShapes = () => {
           alt="Bike body shapes"
         />
       </figure>
-    </Container>
+    </div>
   );
 };

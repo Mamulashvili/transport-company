@@ -7,17 +7,22 @@ import { TextOnly } from './components/TextOnly';
 import { TransportCards } from './components/TransportCards';
 import { TransportShapes } from './components/TransportShapes';
 import { Cargo } from './components/Cargo';
+import { Order } from './components/Order';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
       <NavigationBar />
       <Header />
-      <HeaderCards />
-      <TextOnly />
-      <TransportCards />
-      <TransportShapes />
-      <Cargo />
+      <Container>
+        <HeaderCards />
+        <TextOnly />
+        <TransportCards />
+        <TransportShapes />
+        <Cargo />
+        <Order />
+      </Container>
     </div>
   );
 }

@@ -1,10 +1,10 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import { HeaderCard } from './HeaderCard';
 import data from '../data/cargo.json';
 
 export const Cargo = () => {
   return (
-    <Container>
+    <div>
       <h3 className="my-5">ტვირთების ტრანსპორტირება</h3>
       <Row>
         {
@@ -21,6 +21,6 @@ export const Cargo = () => {
           })
         }
       </Row>
-    </Container>
+    </div>
   );
 };

@@ -74,6 +74,14 @@ header {
   text-align: left;
 }
 
+.order-item-wrapper {
+  margin-top: 3rem;
+
+  .order-item img {
+    max-width: 45px;
+  }
+}
+
 @media (max-width: 700px) {
   header {
     &>div {
