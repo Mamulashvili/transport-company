@@ -4,6 +4,7 @@ import { NavigationBar } from './components/NavigationBar';
 import { Header } from './components/Header';
 import { HeaderCards } from './components/HeaderCards';
 import { TextOnly } from './components/TextOnly';
+import { TransportCards } from './components/TransportCards';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <HeaderCards />
       <TextOnly />
+      <TransportCards />
     </div>
   );
 }

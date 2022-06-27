@@ -1,0 +1,59 @@
+{
+  "0": {
+    "title": "BMW - MERCEDES",
+    "models": [
+      "Mercedes W211",
+      "Mercedes W212",
+      "Mercedes W213",
+      "Mercedes 639 Viano Lang",
+      "Mercedes 447 V Class Lang",
+      "Mercedes 639 Viano Extralang",
+      "Mercedes 447 V Class Extralang",
+      "BMW E46",
+      "BMW X1,X5,X6,X7",
+      "BMW E60",
+      "BMW E70"
+    ],
+    "image": "bmw_merc"
+  },
+  "1": {
+    "title": "HYUNDAI - KIA",
+    "models": [
+      "Hyundai Accent",
+      "Hyundai Matrix",
+      "Hyundai i30",
+      "Hyundai i30 Kombi/Hatchback",
+      "Hyundai Sonata",
+      "Hyundai Santafe",
+      "Hyundai Tucson",
+      "Kia Rio",
+      "Kia Ceed Kombi/Karavan",
+      "Kia Ceed Limousine/Hatchback",
+      "Kia Carens"
+    ],
+    "image": "kia_hiund"
+  },
+  "2": {
+    "title": "RENAULT - SKODA",
+    "models": [
+      "Renault Dacia Logan Kombi/Karavan",
+      "Renault Megane Kombi/Karavan",
+      "Renault Scenic Hatchback",
+      "Renault Scenic - Karavan",
+      "Skoda Fabia Kombi/Karavan",
+      "Skoda Roomster Kombi/Karavan"
+    ],
+    "image": "skoda_reno"
+  },
+  "3": {
+    "title": "TOYOTA - FORD",
+    "models": [
+      "Ford Connect",
+      "Ford Transit",
+      "Fiat Doblo",
+      "TOYOTA Corolla-Hatchback",
+      "TOYOTA Corolla Kombi/Karava"
+    ],
+    "image": "toyota_ford"
+  }
+}
