@@ -44,8 +44,6 @@ export const TransportCards = () => {
           })
         }
       </Row>
-
-
     </Container>
   );
 };

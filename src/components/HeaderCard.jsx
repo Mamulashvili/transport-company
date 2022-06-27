@@ -1,6 +1,6 @@
 import { Card } from 'react-bootstrap';
 
-export const HeaderCard = ({ title, body, image }) => {
+export const HeaderCard = ({ title, body, image, list }) => {
   return (
     <>
       <Card
@@ -17,6 +17,13 @@ export const HeaderCard = ({ title, body, image }) => {
         }
         <Card.Title>{title}</Card.Title>
         <Card.Text>{body}</Card.Text>
+        {
+          list && (
+            <ul>
+              {list.map(item => <li>item</li>)}
+            </ul>
+          )
+        }
       </Card>
     </>
   );
