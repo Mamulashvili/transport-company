@@ -1,5 +1,6 @@
 @import './reset.scss';
 
+$c-primary: #0d6efd;
 $bg-dark: #020B21;
 
 .brd {
@@ -12,7 +13,7 @@ $bg-dark: #020B21;
 
 
 header {
-  height: 80vh;
+  height: 70vh;
   background-size: cover;
   background-position: right;
   position: relative;
@@ -31,9 +32,25 @@ header {
   background-color: #fff;
   margin-top: -70px;
 
-  .card-icon {
-    max-width: 40px;
+  .card-holder {
+    .card-icon {
+      max-width: 40px;
+    }
+
+    &>div,
+    &>div img {
+      transition: .3s ease;
+    }
+
+    &:hover>div {
+      border-color: $c-primary;
+    }
+
+    &:hover>div img {
+      transform: scale(1.1);
+    }
   }
+
 }
 
 

@@ -25,7 +25,7 @@ export const HeaderCards = () => {
                 >
                   <Col
                     md="12"
-                    className="h-100"
+                    className="h-100 card-holder"
                   >
                     <HeaderCard
                       title={item.title}
