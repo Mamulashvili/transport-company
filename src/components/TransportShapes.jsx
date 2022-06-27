@@ -6,7 +6,7 @@ export const TransportShapes = () => {
   return (
     <Container className="mt-5 pt-5">
       <h3>ჩვენ გთავაზობთ სატრანსპორტო სერვისებს</h3>
-      <p>ჩვენი სერვისი მოიცავს ყველანაირი ტიპის ავტომობილის გადაზიდვას</p>
+      <p className="text-primary">ჩვენი სერვისი მოიცავს ყველანაირი ტიპის ავტომობილის გადაზიდვას</p>
 
       <figure className="mt-5">
         <img

@@ -69,6 +69,11 @@ header {
   }
 }
 
+.card-ul {
+  list-style-type: disc;
+  text-align: left;
+}
+
 @media (max-width: 700px) {
   header {
     &>div {

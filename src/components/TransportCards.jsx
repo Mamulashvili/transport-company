@@ -17,7 +17,7 @@ export const TransportCards = () => {
   return (
     <Container className="mt-5 pt-5">
       <h3>ავტომობილები გერმანიიდან</h3>
-      <p>ჩამოიყვანეთ ნებისმიერი ბრენდის ავტომობილი</p>
+      <p className="mb-4 text-primary">ჩამოიყვანეთ ნებისმიერი ბრენდის ავტომობილი</p>
       <Row>
         {
           Object.values(data).map(({ title, models, image }, index) => {

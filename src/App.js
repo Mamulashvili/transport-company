@@ -6,6 +6,7 @@ import { HeaderCards } from './components/HeaderCards';
 import { TextOnly } from './components/TextOnly';
 import { TransportCards } from './components/TransportCards';
 import { TransportShapes } from './components/TransportShapes';
+import { Cargo } from './components/Cargo';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TextOnly />
       <TransportCards />
       <TransportShapes />
+      <Cargo />
     </div>
   );
 }

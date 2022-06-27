@@ -15,12 +15,12 @@ export const HeaderCard = ({ title, body, image, list }) => {
             alt={title}
           />
         }
-        <Card.Title>{title}</Card.Title>
+        <Card.Title className={list ? 'text-primary' : ''}>{title}</Card.Title>
         <Card.Text>{body}</Card.Text>
         {
           list && (
-            <ul>
-              {list.map(item => <li>item</li>)}
+            <ul className="card-ul">
+              {list.map((item, index) => <li key={index}><small>{item}</small></li>)}
             </ul>
           )
         }

@@ -10,13 +10,11 @@ export const TransportCard = ({ title, models, image }) => {
       />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>
-          <ul>
-            {
-              models.map(model => <li>{model}</li>)
-            }
-          </ul>
-        </Card.Text>
+        <ul>
+          {
+            models.map((model, index) => <li key={index}>{model}</li>)
+          }
+        </ul>
       </Card.Body>
     </Card>
   );
