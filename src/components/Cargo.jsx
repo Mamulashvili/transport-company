@@ -10,7 +10,7 @@ export const Cargo = () => {
         {
           Object.values(data).map((item, index) => {
             return (
-              <Col key={index}>
+              <Col key={index} className="mt-sm-2 mt-lg-0">
                 <HeaderCard
                   title={item.title}
                   body={item.body}

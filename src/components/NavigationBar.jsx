@@ -17,6 +17,11 @@ export const NavigationBar = () => {
 
             </Nav>
             <Nav>
+              <p
+                className="text-light mb-0 d-flex align-items-center justify-content-center"
+              >
+                +49 555 555 555
+              </p>
               <NavDropdown title="ქართული" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">ქართული</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">გერმანული</NavDropdown.Item>

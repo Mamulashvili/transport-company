@@ -82,6 +82,12 @@ header {
   }
 }
 
+footer {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 @media (max-width: 700px) {
   header {
     &>div {

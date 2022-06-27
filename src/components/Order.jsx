@@ -3,10 +3,10 @@ import order from '../assets/images/clipboard.png';
 import delivery from '../assets/images/shipped.png';
 import payment from '../assets/images/wallet.png';
 
-
 export const Order = () => {
   return (
     <div className="order-item-wrapper">
+      <h3 className="mb-4 mt-3">შეუკვეთეთ მარტივად</h3>
       <Row>
         <Col>
           <OrderItem
@@ -33,7 +33,6 @@ export const Order = () => {
     </div>
   );
 };
-
 
 const OrderItem = ({ title, desc, image }) => {
   return (
