@@ -6,6 +6,7 @@ import star from '../assets/images/star.png';
 import docs from '../assets/images/docs.png';
 import lorry from '../assets/images/lorry.png';
 
+
 export const HeaderCards = () => {
   const images = { search, star, docs, lorry };
 

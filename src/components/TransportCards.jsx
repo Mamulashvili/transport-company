@@ -6,7 +6,7 @@ import toyota_ford from '../assets/images/toyford.jpeg';
 import kia_hiund from '../assets/images/kiahiund.jpeg';
 import data from '../data/TransportCars.json';
 
-export const TransportCards = () => {
+export const TransportCards = ({ t, language }) => {
   const carImages = {
     bmw_merc,
     skoda_reno,
@@ -16,8 +16,8 @@ export const TransportCards = () => {
 
   return (
     <div className="mt-5 pt-5">
-      <h3>ავტომობილები გერმანიიდან</h3>
-      <p className="mb-4 text-primary">ჩამოიყვანეთ ნებისმიერი ბრენდის ავტომობილი</p>
+      <h3>{t("carsFromGermany")}</h3>
+      <p className="mb-4 text-primary">{t("importCars")}</p>
       <Row>
         {
           Object.values(data).map(({ title, models, image }, index) => {

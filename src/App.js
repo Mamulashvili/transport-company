@@ -16,15 +16,16 @@ import { useTranslation } from 'react-i18next';
 
 function App() {
   const { t, i18n } = useTranslation();
+  const language = i18n.language;
 
   return (
     <div className="App">
       <NavigationBar t={t} i18n={i18n} />
       <Header t={t} />
       <Container>
-        <HeaderCards t={t} />
+        <HeaderCards language={language} />
         <TextOnly t={t} />
-        <TransportCards t={t} />
+        <TransportCards t={t} language={language} />
         <TransportShapes t={t} />
         <Cargo t={t} />
         <Order t={t} />
