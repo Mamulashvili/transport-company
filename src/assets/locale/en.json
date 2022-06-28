@@ -1,3 +1,13 @@
 {
-  "test": "TEST TEXT HERER"
+  "brandName": "ბრენდის სახელი",
+  "cars": "ავტომობილები",
+  "cargo": "ტვირთები",
+  "aboutUs": "ჩვენ შესახებ",
+  "contact": "კონტაქტი",
+  "ka": "Georgian",
+  "en": "English",
+  "de": "German",
+  "ru": "Russian",
+  "headerHero": "ავტომობილებისა და <br />ტვირთების ტრანსპორტირება",
+  "headerDesc": "უსაფრთხო გადაზიდვა, <br />ექსპორტი და იმპორტი"
 }
